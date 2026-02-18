@@ -21,19 +21,19 @@ const user2 = {
 const metaPhone4 = {
     screensize: 1.9,
     processor: "4.5gz",
-}
     powerOn: function(){
         // send signal to battery
     }
+}
 
     const header = {
         position: "sticky",
         width: "100%",
         links: ["Home","About","Sales"],
-    }
 
-    getCodeSpaces: function (){
-        // go to DB and find out 
+        getCodeSpaces: function (){
+            // go to DB and find out
+        }
     }
 
 console.log(user1.userName + "" + user1.userScore);
